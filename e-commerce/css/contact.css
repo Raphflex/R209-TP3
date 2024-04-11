@@ -1,0 +1,83 @@
+/*********/
+/*GENERAL*/
+/*********/
+
+main {
+	padding-bottom: 90px;
+}
+h1 {
+	margin-bottom: 90px;
+}
+h2 {
+	text-align: start;
+}
+
+/*******/
+/*Contact*/
+/*******/
+.contact__message {
+	display: flex;
+	justify-content: center;
+	margin-top: 90px;
+}
+.contact__message__form {
+	width: 70%;
+}
+.contact__message__form__question {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 25px;
+}
+.contact__message__form__question input {
+	border-radius: 5px;
+	border: 0;
+	height: 26px;
+	margin-top: 10px;
+}
+.contact__message__form__question input:focus {
+	outline: none;
+}
+.contact__message__form__question p {
+	margin: 0;
+	color: #fbbcbc;
+	font-size: 15px;
+	margin-left: 8px;
+}
+.contact__message__form__submit {
+	display: flex;
+	justify-content: center;
+}
+.contact__message__form__submit input {
+	font-size: 22px;
+	border-radius: 5px;
+	border: 0;
+	background-color: var(--secondary-color);
+	color: white;
+	padding: 12px 20px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+.contact__message__form__submit input:hover {
+	box-shadow: rgb(143 131 221 / 90%) 0 0 22px 6px;
+}
+#message {
+	min-height: 10rem;
+	margin-top: 10px;
+}
+
+
+
+/***************/
+/*Media queries*/
+/***************/
+
+
+@media (max-width: 575.98px) { 
+
+	.contact__message {
+		justify-content: center;
+	}
+	.contact__message__form {
+		width: 75%;
+	}
+}
